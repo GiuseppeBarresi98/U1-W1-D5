@@ -54,7 +54,7 @@ header img {
 }
 .info h4 {
   color: #25a2c3;
-  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
   margin-top: 20px;
 }
 .info p {
@@ -109,7 +109,7 @@ header img {
 
 .images h3 {
   color: #25a2c3;
-  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
   margin-top: 10px;
 }
 .images p {
