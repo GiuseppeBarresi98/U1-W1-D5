@@ -1,0 +1,168 @@
+/* Your styles here */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+body {
+  font-size: 1.2rem;
+  font-family: "Open Sans", sans-serif;
+}
+
+header {
+  background-color: black;
+  padding: 2%;
+
+  height: 100px;
+  box-sizing: border-box;
+}
+header > img {
+  width: 10%;
+
+  margin-bottom: 10px;
+}
+
+.background-image {
+  background-image: url(../images/banner.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 10%;
+}
+.background-image h1 {
+  color: #25a2c3;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+}
+.background-image > p {
+  margin-top: 20px;
+  text-align: center;
+}
+.background-image button {
+  margin-top: 30px;
+  height: 50px;
+  width: 150px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f04c2f;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+
+.info {
+  text-align: center;
+  box-sizing: border-box;
+  font-size: 1rem;
+}
+.info > div {
+  display: inline-block;
+  width: 45%;
+  vertical-align: middle;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+.info h4 {
+  color: #25a2c3;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.info p {
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+.info img {
+  border-radius: 50%;
+  width: 90%;
+  margin-top: 10px;
+}
+.adv {
+  background-color: red;
+  color: white;
+  text-align: center;
+  padding: 10%;
+  box-sizing: border-box;
+}
+.adv h2 {
+  margin-top: 25px;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.adv p {
+  margin-top: 25px;
+  font-style: italic;
+}
+.adv h3 {
+  margin-top: 25px;
+}
+
+.adv h5 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 1rem;
+}
+.gallery {
+  box-sizing: border-box;
+  padding: 5%;
+  text-align: center;
+  display: inline-block;
+}
+.images {
+  display: inline-block;
+  width: 30%;
+  margin: 10px;
+  margin-top: 25px;
+  border: 1px solid #dee1e3;
+}
+
+.images img {
+  width: 100%;
+  height: 150px;
+}
+
+.images h3 {
+  color: #25a2c3;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.images p {
+  margin: 15px;
+  font-size: 0.9rem;
+  margin-bottom: 30px;
+}
+
+footer {
+  text-align: center;
+  box-sizing: border-box;
+  background-color: #25a2c3;
+  color: white;
+  padding: 10%;
+  font-size: 0.8rem;
+}
+
+footer h2 {
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+footer a {
+  display: block;
+  color: white;
+}
+footer > * {
+  margin-top: 20px;
+}
+hr {
+  width: 40%;
+  margin: auto;
+  margin-top: 15px;
+}
+footer div {
+  width: 50%;
+  margin: auto;
+  box-sizing: border-box;
+  padding: 5%;
+}
+
+footer div > * {
+  text-align: left;
+  margin-top: 5px;
+}
